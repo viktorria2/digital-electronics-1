@@ -1,4 +1,4 @@
-# Lab 1: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 1: Viktoriia Shishkova (222953)
 
 ### De Morgan's laws
 

@@ -23,26 +23,27 @@
    Last two digits of my student ID: **xxxx??**
 
 ```vhdl
-    p_stimulus : process
-    begin
+     p_stimulus : process
+   begin
         -- Report a note at the beginning of stimulus process
-        report "Stimulus process started" severity note;
+        report "Stimulus process started";
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
+        s_b <= "0101"; --  "0101" ID is 222953; pro 5.
+        s_a <= "0011";        --  "0011" ID is 222953; pro 3.
         wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
+        report "Input combination b=5, a=3 FAILED" severity error;
 
         -- Report a note at the end of stimulus process
-        report "Stimulus process finished" severity note;
+        report "Stimulus process finished";
         wait;
     end process p_stimulus;
+
 ```
 
 2. Link to your public EDA Playground example:

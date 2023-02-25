@@ -59,47 +59,35 @@ begin
     report "Stimulus process started";
 
     -- First test case ...
-    sig_b <= "0000";
-    sig_a <= "0000";
+    sig_b <= "011";
+    sig_a <= "000";
     wait for 100 ns;
     -- ... and its expected outputs
     assert (
-            (sig_b_greater_a = '0') and
-            (sig_b_equals_a  = '1') and
+            (sig_b_greater_a = '1') and
+            (sig_b_equals_a  = '0') and
             (sig_b_less_a    = '0')
         )
       -- If false, then report an error
       -- If true, then do not report anything
-      report "Input combination b=0, a=0 FAILED"
+      report "Input combination 0111, 0001 FAILED"
       severity error;
 
     ------------------------------
     -- WRITE OTHER TEST CASES HERE
-    sig_b <= "0001";
-    sig_a <= "0001";
+    sig_b <= "1111";
+    sig_a <= "1111";
     wait for 100 ns;
     assert (
             (sig_b_greater_a = '0') and
             (sig_b_equals_a  = '1') and
             (sig_b_less_a    = '0')
         )
-      report "Input combination b=1, a=1 FAILED"
+      report "Input combination 1111, 1111 FAILED"
       severity error;
 
     ------------------------------
-    sig_b <= "0011";
-    sig_a <= "1100";
-    wait for 100 ns;
-    assert (
-            (sig_b_greater_a = '0') and
-            (sig_b_equals_a  = '0') and
-            (sig_b_less_a    = '1')
-        )
-      report "Input combination b=3, a=12 FAILED"
-      severity error;
-
-    ------------------------------
-    sig_b <= "1000";
+    sig_b <= "0100";
     sig_a <= "1001";
     wait for 100 ns;
     assert (
@@ -107,21 +95,11 @@ begin
             (sig_b_equals_a  = '0') and
             (sig_b_less_a    = '1')
         )
-      report "Input combination b=8, a=9 FAILED"
+      report "Input combination 1001, 0100 FAILED"
       severity error;
 
     ------------------------------
-    sig_b <= "1001";
-    sig_a <= "1000";
-    wait for 100 ns;
-    assert (
-            (sig_b_greater_a = '1') and
-            (sig_b_equals_a  = '0') and
-            (sig_b_less_a    = '0')
-        )
-      report "Input combination b=9, a=8 FAILED"
-      severity error;
-
+   
     -- Report a note at the end of stimulus process
     report "Stimulus process finished";
 

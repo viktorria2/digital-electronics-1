@@ -1,4 +1,4 @@
-# Lab 3: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 3: Viktoriia Shishkova 222953
 
 ### Three-bit wide 4-to-1 multiplexer
 

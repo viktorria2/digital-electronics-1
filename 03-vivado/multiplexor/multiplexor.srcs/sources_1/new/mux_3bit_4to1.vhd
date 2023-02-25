@@ -52,9 +52,9 @@ architecture behavioral of comparator_4bit is
 
 begin
 
-  f_0 <= a_i when (sel_i = "000") else
-       b_i when (sel_i = "010"') else
-       c_i when (sel_i = "100") else
+  f_0 <= a_i when (sel_i = "00") else
+       b_i when (sel_i = "01"') else
+       c_i when (sel_i = "10") else
        d_i;
 
 end architecture behavioral;

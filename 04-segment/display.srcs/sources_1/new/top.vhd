@@ -75,16 +75,16 @@ hex2seg : entity work.hex_7seg
   case led is
   when "0000" =>
 
-          LED(4) <= "0000001";
+          LED(4) <= '1' when (SW = "0000");
 
 -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
--- LED(5) <= WRITE YOUR CODE HERE
+-- LED(5) <= '1' when (SW > "1001");
 
 -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
--- LED(6) <= WRITE YOUR CODE HERE
+-- LED(6) <= '1' when (SW(0)='1');
 
 -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
--- LED(7) <= WRITE YOUR CODE HERE
+-- LED(7) <=  LED(7) <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000");
 
 end architecture behavioral;
 

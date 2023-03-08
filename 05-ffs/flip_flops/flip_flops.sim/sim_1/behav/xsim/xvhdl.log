@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "V:/digital-electronics-1/05-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_f_fsp.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'd_f_fsp'
-INFO: [VRFC 10-163] Analyzing VHDL file "V:/digital-electronics-1/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_fli_flop.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_ff_rst'

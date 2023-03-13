@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 03/08/2023 03:25:01 PM
 -- Design Name: 
--- Module Name: d_f_fsp - Behavioral
+-- Module Name: d_ff_rst - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,34 +31,34 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity d_f_fsp is
+entity d_ff_rst is
     Port ( d : in STD_LOGIC;
            q : out STD_LOGIC;
            q_bar : out STD_LOGIC;
            clk : in STD_LOGIC;
            rst : in STD_LOGIC);
-end d_f_fsp;
+end d_ff_rst;
 
-architecture behavioral of d_f_fsp is
+architecture behavioral of d_ff_rst is
 begin
     --------------------------------------------------------
-    -- d_f_fsp;
+    -- d_ff_rst;
     -- D type flip-flop with a high-active sync reset and
     -- rising-edge clk.
     -- q(n+1) = d
     --------------------------------------------------------
-    d_f_fsp : process (clk) is
+    d_ff_rst : process (clk) is
     begin
         if rising_edge(clk) then  -- Synchronous process
 
-            if (rst = '1') then
-            q  <= '0';
-            q_bar   <= '1';
-         else
-            q     <= d;
-            q_bar <= not d;
-        end if;
+           if (rst='1') then
+                q     <='0';
+                q_bar  <='1'; 
+            else
+                q     <= d;
+                q_bar <= not d;
+            end if;
         end if;
         
-    end process d_f_fsp;
+    end process d_ff_rst;
 end architecture behavioral;

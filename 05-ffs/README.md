@@ -28,11 +28,6 @@ architecture behavioral of jk_ff_rst is
     end process p_t_ff_rst;
 
     -- Output ports are permanently connected to local signal
-    q     <= s_q;
-    q_bar <= not s_q;
-end architecture Behavioral;
-
-    -- Output ports are permanently connected to local signal
     q     <= sig_q;
     q_bar <= not sig_q;
 end architecture behavioral;

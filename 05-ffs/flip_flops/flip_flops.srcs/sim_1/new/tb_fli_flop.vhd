@@ -74,7 +74,13 @@ begin
         report "Stimulus process started";
         sig_data <='0'; wait for 13 ns;
 
-        -- DEFINE YOUR INPUT DATA HERE
+        s_data <='1'; wait for 27 ns;
+        s_data <='0'; wait for 40 ns;
+        s_data <='1'; wait for 15 ns;
+        s_data <='0'; wait for 16 ns;
+        s_data <='1'; wait for 20 ns;
+        s_data <='0'; wait for 13 ns;
+        s_data <='1'; wait for 22 ns;
 
         report "Stimulus process finished";
         wait;

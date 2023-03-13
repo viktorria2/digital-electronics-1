@@ -45,7 +45,7 @@ architecture behavioral of t_flipflop_rst is
     signal sig_q : std_logic;
 begin
     --------------------------------------------------------
-    -- p_t_ff_rst:
+    -- p_t_flipflop_rst:
     -- T type flip-flop with a high-active synchro reset and
     -- rising-edge clk.
     -- sig_q = t./sig_q + /t.sig_q
@@ -56,12 +56,15 @@ begin
     begin
         if rising_edge(clk) then
 
-        -- WRITE YOUR CODE HERE
-
+            if (rst='1') then
+                s_q    <='0';
+            elsif (t='0') then
+                s_q    <= s_q;
+            else
+                s_q    <= not s_q;                
+            end if;
         end if;
-    end process p_t_ff_rst;
-
-    -- Output ports are permanently connected to local signal
+    end process p_t_flipflop_rst;
     q     <= sig_q;
     q_bar <= not sig_q;
 end architecture behavioral;

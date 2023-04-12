@@ -1,3 +1,5 @@
+# VHDL project
+
 ### Team members
 
 * Member 1 (responsible for ...)

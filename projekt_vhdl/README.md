@@ -51,7 +51,7 @@ Two buttons are used:
 
 * Decoder_2 goes from stopwatch2 and it's a decision between letter or number. 
 
-![dec_2.png](dec_2.png)
+![decod_2.png](decod_2.png)
 
 ## Instructions
 

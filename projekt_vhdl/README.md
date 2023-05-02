@@ -8,7 +8,9 @@
 
 ## Theoretical description and explanation
 
-Enter a description of the problem and how to solve it.
+The problem of this project is creating of Morse Code Receiver. Algorithm is simple: you should press the button and depending on pressing time the signal is recognised as dot or dash. After assembly all symbols we have the final letter or digit which is translated on the 7-segment display. 
+
+We solved it with references on previous excersises and took some part of it from our previous solutions (for example clock_enable). Also we made new simulation sources to detect hashes and dots by pressing the BTNU-button. 
 
 ## Hardware description of demo application
 

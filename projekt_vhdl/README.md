@@ -42,6 +42,9 @@ Two buttons are used:
 ![edge_sim.png](edge_sim.png)
 
 * Stopwatch and Stopwatch2 control time between rise and fall. For the first we have result 1, for the second one result is 0.
+
+![watch_2.png](watch_2.png)
+
 * Decoder_1 goes from stopwatch and it's a decision between (-) or (.). 
 
 ![dec_1.png](dec_1.png)

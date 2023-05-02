@@ -33,6 +33,10 @@ The main algorithm of morse_to8bit:
 
 ![shifting_op.png](shifting_op.png)
 
+* Consists of falling_edge and rising_edge detecters, as result we have 0 or 1.
+
+![edge_sim.png](edge_sim.png)
+
 ## Instructions
 
 Write an instruction manual for your application, including photos or a link to a video.

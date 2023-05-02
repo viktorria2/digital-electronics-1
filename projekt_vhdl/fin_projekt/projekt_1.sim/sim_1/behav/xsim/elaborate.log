@@ -1,0 +1,24 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/appz/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 42423c92a4db4cb8802eb40078bfc5c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.d_ff_rst [d_ff_rst_default]
+Compiling architecture behavioral of entity xil_defaultlib.edge_detect [edge_detect_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=100000)\]
+Compiling architecture behavioral of entity xil_defaultlib.stopwatch [stopwatch_default]
+Compiling architecture behavioral of entity xil_defaultlib.stopwatch2 [stopwatch2_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder_1 [decoder_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder_2 [decoder_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.morse_to8bit [morse_to8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavior of entity xil_defaultlib.top
+Built simulation snapshot top_behav

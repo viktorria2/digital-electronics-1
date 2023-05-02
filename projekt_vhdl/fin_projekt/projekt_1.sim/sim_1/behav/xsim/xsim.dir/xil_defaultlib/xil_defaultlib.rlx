@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/d_ff_rst.vhd,1682515237,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/edge_detect.vhd,,,d_ff_rst,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/edge_detect.vhd,1682515124,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,edge_detect,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/hex_7seg.vhd,1682515170,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,hex_7seg,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/morse_to8bit.vhd,1682515082,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,morse_to8bit,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,1682515767,vhdl,,,,top,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/clock_enable.vhd,1678889679,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/stopwatch1.vhd;C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/stopwatch2.vhd,,,clock_enable,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/decoder_1.vhd,1682515671,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,decoder_1,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/decoder_2.vhd,1682514678,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,decoder_2,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/stopwatch1.vhd,1682515797,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,stopwatch,,,,,,,,
+C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sources_1/new/stopwatch2.vhd,1682514740,vhdl,C:/Users/xshish01/Desktop/digital-electronics-1/projekt_vhdl/projekt_1/projekt_1.srcs/sim_1/new/top.vhd,,,stopwatch2,,,,,,,,

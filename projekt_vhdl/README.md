@@ -29,7 +29,11 @@ Two buttons are used:
 
 ### Component(s) simulation
 
-The main algorithm of morse_to8bit:
+* The Top simulation:
+
+![top.png](top.png)
+
+* The main algorithm of morse_to8bit:
 
 ![shifting_op.png](shifting_op.png)
 
@@ -37,9 +41,14 @@ The main algorithm of morse_to8bit:
 
 ![edge_sim.png](edge_sim.png)
 
-* Stopwatch_1 and Stopwatch_2 control time between rise and fall. For the first we have result 1, for the second one result is 0.
-* Time
+* Stopwatch and Stopwatch2 control time between rise and fall. For the first we have result 1, for the second one result is 0.
+* Decoder_1 goes from stopwatch and it's a decision between (-) or (.). 
 
+![dec_1.png](dec_1.png)
+
+* Decoder_2 goes from stopwatch2 and it's a decision between letter or number. 
+
+![dec_2.png](dec_2.png)
 
 ## Instructions
 

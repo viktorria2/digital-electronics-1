@@ -8,7 +8,7 @@
 
 ## Theoretical description and explanation
 
-The problem of this project is creating of Morse Code Receiver. Algorithm is simple: you should press the button and depending on pressing time the signal is recognised as dot or dash. After assembly all symbols we have the final letter or digit which is translated on the 7-segment display. 
+The problem of this project is creating of Morse Code Receiver. Algorithm is simple: you should press the button and depending on pressing time the signal is recognised as dot or dash. After assembly all symbols we have the final letter or digit which is translated on the 7-segment display. The code is created such as "new-era" digital telegraph based on desk Nexys-A7-50T. 
 
 We solved it with references on previous excersises and took some part of it from our previous solutions (for example clock_enable). Also we made new simulation sources to detect hashes and dots by pressing the BTNU-button. 
 

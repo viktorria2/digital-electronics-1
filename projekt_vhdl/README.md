@@ -14,7 +14,7 @@ We solved it with references on previous excersises and took some part of it fro
 
 ## Hardware description of demo application
 
-Insert descriptive text and schematic(s) of your implementation.
+![nexys.png](nexys.png)
 
 ## Software description
 

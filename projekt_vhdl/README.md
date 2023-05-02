@@ -14,6 +14,10 @@ We solved it with references on previous excersises and took some part of it fro
 
 ## Hardware description of demo application
 
+Two buttons are used: 
+- BTNC - for sending signals;
+- BTNR - for reset of the memory.
+
 ![nexys.png](nexys.png)
 
 ## Software description

@@ -3,7 +3,7 @@
 ### Team members
 
 * Lysá Barbora (responsible for edge_detect,d_ff_rst, hex_7_seg and implementation)
-* Shishkova Viktoriia (responsible for control_time1/2, decoders, stopwatches)
+* Shishkova Viktoriia (responsible for decoders, stopwatches, git descriprion)
 * Nguyen Nhat Truong (responsible for Top, testbenches and simulatioons)
 
 ## Theoretical description and explanation
@@ -36,6 +36,10 @@ The main algorithm of morse_to8bit:
 * Consists of falling_edge and rising_edge detecters, as result we have 0 or 1.
 
 ![edge_sim.png](edge_sim.png)
+
+* Stopwatch_1 and Stopwatch_2 control time between rise and fall. For the first we have result 1, for the second one result is 0.
+* Time
+
 
 ## Instructions
 

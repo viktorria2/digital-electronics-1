@@ -28,7 +28,8 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 ### Component(s) simulation
 
 The main algorithm of morse_to8bit:
-![nexys.png](nexys.png)
+
+![shifting_op.png](shifting_op.png)
 
 ## Instructions
 

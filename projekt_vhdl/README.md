@@ -23,7 +23,7 @@ Two buttons are used:
 
 ## Software description
 
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders. 
+[Link to all sources file.](projekt_vhdl/fin_projekt/projekt_1.srcs) 
 
 ### Component(s) simulation
 

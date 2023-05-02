@@ -41,3 +41,4 @@ Write an instruction manual for your application, including photos or a link to 
 
 1. [Morse code (Wiki)](https://en.wikipedia.org/wiki/Morse_code)
 2. [Morse code decoder design in VHDL](https://www.researchgate.net/publication/305379385_Morse_code_decoder_design_in_VHDL_using_FPGA_Spartan_3E_development_kit)
+3. [Nexys A7 Reference Manual](https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual)

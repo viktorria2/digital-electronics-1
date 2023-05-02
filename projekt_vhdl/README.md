@@ -30,5 +30,5 @@ Write an instruction manual for your application, including photos or a link to 
 
 ## References
 
-1. [Put here the literature references you used.](https://en.wikipedia.org/wiki/Morse_code)
-2. [...](https://www.researchgate.net/publication/305379385_Morse_code_decoder_design_in_VHDL_using_FPGA_Spartan_3E_development_kit)
+1. [Morse code (Wiki)](https://en.wikipedia.org/wiki/Morse_code)
+2. [Morse code decoder design in VHDL](https://www.researchgate.net/publication/305379385_Morse_code_decoder_design_in_VHDL_using_FPGA_Spartan_3E_development_kit)

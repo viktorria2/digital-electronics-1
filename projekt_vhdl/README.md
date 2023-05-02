@@ -1,10 +1,10 @@
-# VHDL project
+# VHDL project - Morse Code Receiver
 
 ### Team members
 
-* Member 1 (responsible for ...)
-* Member 2 (responsible for ...)
-* Member 3 (responsible for ...)
+* Lysá Barbora (responsible for edge_detect,d_ff_rst, hex_7_seg and implementation)
+* Shishkova Viktoriia (responsible for control_time1/2, decoders, stopwatches)
+* Nguyen Nhat Truong (responsible for Top, testbenches and simulatioons)
 
 ## Theoretical description and explanation
 

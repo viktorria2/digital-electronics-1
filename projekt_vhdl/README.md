@@ -23,6 +23,8 @@ Two buttons are used:
 
 ## Software description
 
+![schema.png](schema.png)
+
 [Link to all sources file.](projekt_vhdl/fin_projekt/projekt_1.srcs) 
 
 ### Component(s) simulation

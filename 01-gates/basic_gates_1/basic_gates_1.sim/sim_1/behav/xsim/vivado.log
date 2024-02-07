@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb  7 13:40:21 2024
+# Process ID: 13240
+# Current directory: C:/Users/xshish01/Documents/NKZT/basic_gates_1/basic_gates_1.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14036 C:\Users\xshish01\Documents\NKZT\basic_gates_1\basic_gates_1.sim\sim_1\behav\xsim\gates_behav.wdb
+# Log file: C:/Users/xshish01/Documents/NKZT/basic_gates_1/basic_gates_1.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/xshish01/Documents/NKZT/basic_gates_1/basic_gates_1.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\xshish01\Documents\NKZT\basic_gates_1\basic_gates_1.sim\sim_1\behav\xsim\gates_behav.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/appz/Xilinx/Vivado/2020.2/data/ip'.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb  7 13:40:55 2024...

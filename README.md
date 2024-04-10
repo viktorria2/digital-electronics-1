@@ -17,3 +17,13 @@ Po nastavéní delky signálu pomocí tlačitek BTNL a BTNR pak zmačknutím spu
 
 # SWITCHES
 
+Switche mají na stárosti prepinání mezi noty (frekvenci).
+Každý switch je zodpovědní za určitou frekvenci:
+  - Do = 262 Hz => SW
+  constant Do_freq: INTEGER := 262;
+    constant Re_freq: INTEGER := 294;
+    constant Mi_freq: INTEGER := 330;
+    constant Fa_freq: INTEGER := 349;
+    constant Sol_freq: INTEGER := 392;
+    constant La_freq: INTEGER := 440;
+    constant Si_freq: INTEGER := 494;
